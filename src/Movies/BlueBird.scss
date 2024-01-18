@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section {
+    overflow-y: hidden;
+    .header {
+        width: 20%;
+        height: 100vh;
+        background-color: #000000;
+        position: fixed;
+
+        .logo {
+            .img {
+                width: 100%;
+                height: 100%;
+                padding: 15px 0px;
+
+                img {
+                    width: 130px;
+                }
+            }
+
+            .title {
+                padding-top: 4px;
+
+                span {
+                    color: #6d7478;
+                    font-size: 32px;
+                    font-weight: 900;
+                }
+            }
+        }
+
+        .status {
+            padding-top: 4px;
+
+            ul {
+                li {
+                    padding: 17px 50px;
+
+                    a {
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 700;
+                        background-color: #15171a;
+                        padding: 18px 0px;
+                        display: block;
+                        border-radius: 8px;
+                        border: 2px solid #15171a;
+
+                        // & :focus {
+                        //     border: 2px solid #36cafc;
+                        // }
+                    }
+                }
+            }
+        }
+
+        .login {
+            position: absolute;
+            bottom: 50px;
+            width: 100%;
+
+            .loginbtn {
+                padding: 0px 50px;
+
+                a {
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 700;
+                    background-color: #111827;
+                    padding: 18px 0px;
+                    display: block;
+                    border-radius: 8px;
+                    border: 2px solid #1d2736;
+                }
+            }
+        }
+    }
+
+    .body {
+        width: 80%;
+        min-height: 100vh;
+        margin-left: 20%;
+        background-color: #10141e;
+        padding-bottom: 60px;
+
+        .nav {
+            background: linear-gradient(90deg, rgba(142, 54, 165, 1) 0%, rgba(19, 128, 171, 1) 100%);
+
+            .input {
+                padding: 90px 0px;
+
+                input {
+                    width: 50%;
+                    padding: 16px 8px;
+                    border: 0px;
+                    border-radius: 12px;
+                    font-size: 18px;
+                    outline: none;
+                }
+            }
+        }
+
+        .main {
+            .container {
+                .row {
+                    .category {
+                        padding: 40px 0px;
+
+                        .allBtn {
+                            a {
+                                background-color: #1e293b;
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 600;
+                                padding: 12px 20px;
+                                display: inline-block;
+                                border-radius: 30px;
+                                margin: 8px 8px;
+                            }
+                        }
+                    }
+
+                    .all-cards {
+                        .main {
+                            justify-content: start;
+
+                            .card {
+                                width: 25%;
+                                height: 350px;
+                                padding: 10px;
+
+                                .content {
+                                    padding: 10px;
+                                    position: relative;
+                                    overflow: hidden;
+
+                                    .img {
+                                        width: 100%;
+
+                                        img {
+                                            width: 100%;
+                                            height: 330px;
+                                            border-radius: 15px;
+                                        }
+                                    }
+
+                                    .btn {
+                                        width: 100%;
+                                        padding: 0px 20px;
+                                        position: absolute;
+                                        bottom: -43px;
+                                        left: 0px;
+                                        transition: all 0.5s;
+
+                                        a {
+                                            display: block;
+                                            background-color: #1e293b;
+                                            background-color: #7f40a6;
+                                            color: white;
+                                            border-radius: 12px;
+                                            padding: 10px 0px;
+                                        }
+                                    }
+
+                                    &:hover {
+                                        .btn {
+                                            bottom: 26px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

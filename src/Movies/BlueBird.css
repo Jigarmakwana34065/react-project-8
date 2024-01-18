@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-section {
+  overflow-y: hidden;
+}
+.main-section .header {
+  width: 20%;
+  height: 100vh;
+  background-color: #000000;
+  position: fixed;
+}
+.main-section .header .logo .img {
+  width: 100%;
+  height: 100%;
+  padding: 15px 0px;
+}
+.main-section .header .logo .img img {
+  width: 130px;
+}
+.main-section .header .logo .title {
+  padding-top: 4px;
+}
+.main-section .header .logo .title span {
+  color: #6d7478;
+  font-size: 32px;
+  font-weight: 900;
+}
+.main-section .header .status {
+  padding-top: 4px;
+}
+.main-section .header .status ul li {
+  padding: 17px 50px;
+}
+.main-section .header .status ul li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #15171a;
+  padding: 18px 0px;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid #15171a;
+}
+.main-section .header .login {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
+.main-section .header .login .loginbtn {
+  padding: 0px 50px;
+}
+.main-section .header .login .loginbtn a {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #111827;
+  padding: 18px 0px;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid #1d2736;
+}
+.main-section .body {
+  width: 80%;
+  min-height: 100vh;
+  margin-left: 20%;
+  background-color: #10141e;
+  padding-bottom: 60px;
+}
+.main-section .body .nav {
+  background: linear-gradient(90deg, rgb(142, 54, 165) 0%, rgb(19, 128, 171) 100%);
+}
+.main-section .body .nav .input {
+  padding: 90px 0px;
+}
+.main-section .body .nav .input input {
+  width: 50%;
+  padding: 16px 8px;
+  border: 0px;
+  border-radius: 12px;
+  font-size: 18px;
+  outline: none;
+}
+.main-section .body .main .container .row .category {
+  padding: 40px 0px;
+}
+.main-section .body .main .container .row .category .allBtn a {
+  background-color: #1e293b;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 30px;
+  margin: 8px 8px;
+}
+.main-section .body .main .container .row .all-cards .main {
+  justify-content: start;
+}
+.main-section .body .main .container .row .all-cards .main .card {
+  width: 25%;
+  height: 350px;
+  padding: 10px;
+}
+.main-section .body .main .container .row .all-cards .main .card .content {
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.main-section .body .main .container .row .all-cards .main .card .content .img {
+  width: 100%;
+}
+.main-section .body .main .container .row .all-cards .main .card .content .img img {
+  width: 100%;
+  height: 330px;
+  border-radius: 15px;
+}
+.main-section .body .main .container .row .all-cards .main .card .content .btn {
+  width: 100%;
+  padding: 0px 20px;
+  position: absolute;
+  bottom: -43px;
+  left: 0px;
+  transition: all 0.5s;
+}
+.main-section .body .main .container .row .all-cards .main .card .content .btn a {
+  display: block;
+  background-color: #1e293b;
+  background-color: #7f40a6;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 0px;
+}
+.main-section .body .main .container .row .all-cards .main .card .content:hover .btn {
+  bottom: 26px;
+}/*# sourceMappingURL=BlueBird.css.map */
