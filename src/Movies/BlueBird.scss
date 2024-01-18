@@ -68,11 +68,11 @@ ul {
                         padding: 18px 0px;
                         display: block;
                         border-radius: 8px;
-                        border: 2px solid #15171a;
+                        border: 3px solid #15171a;
 
-                        // & :focus {
-                        //     border: 2px solid #36cafc;
-                        // }
+                        &:focus {
+                            border: 3px solid #4463a9;
+                        }
                     }
                 }
             }
@@ -94,7 +94,11 @@ ul {
                     padding: 18px 0px;
                     display: block;
                     border-radius: 8px;
-                    border: 2px solid #1d2736;
+                    border: 3px solid #1d2736;
+
+                    &:focus {
+                        border: 3px solid #8a39a5;
+                    }
                 }
             }
         }
@@ -120,6 +124,11 @@ ul {
                     border-radius: 12px;
                     font-size: 18px;
                     outline: none;
+                    border: 4px solid #8a39a5;
+
+                    &:focus {
+                        border: 4px solid #1455be;
+                    }
                 }
             }
         }
@@ -140,6 +149,11 @@ ul {
                                 display: inline-block;
                                 border-radius: 30px;
                                 margin: 8px 8px;
+
+                                &:focus {
+                                    background-color: #4463a9;
+                                    color: #15171a;
+                                }
                             }
                         }
                     }
@@ -183,6 +197,11 @@ ul {
                                             color: white;
                                             border-radius: 12px;
                                             padding: 10px 0px;
+                                            transition: all 0.5s;
+
+                                            &:hover{
+                                                background-color: #1d47a1;
+                                            }
                                         }
                                     }
 

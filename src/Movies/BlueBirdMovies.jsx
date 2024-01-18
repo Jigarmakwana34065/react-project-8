@@ -70,321 +70,385 @@ const BlueBirdMovies = () => {
         {
             img: '../img/hanuman.jpeg',
             category: "Action",
-            tokken: "tredding"
+            tokken: "tredding",
+            name : "hanuman"
         },
         {
             img: '../img/kgf.jpeg',
-            category: "Action"
+            category: "Action",
+            name : "kgf"
         },
         {
             img: '../img/animal.jpeg',
-            category: "Action"
+            category: "Action",
+            name : "animal"
         },
         {
             img: '../img/lift.jpeg',
-            category: "Action"
+            category: "Action",
+            name : "lift"
         },
         {
             img: '../img/rastan.jpeg',
-            category: "Action"
+            category: "Action",
+            name : "rastsasan"
         },
         {
             img: '../img/napoleon.jpeg',
             category: "Action",
-            tokken: "upcoming"
+            tokken: "upcoming",
+            name : "napoleon"
         },
         {
             img: '../img/eli.jpeg',
             category: "Adventure",
-            tokken: "tredding"
+            tokken: "tredding",
+            name : "alienoid"
         },
         {
             img: '../img/bahu.jpeg',
-            category: "Adventure"
+            category: "Adventure",
+            name : "bahubali"
         },
         {
             img: '../img/rec.jpeg',
-            category: "Adventure"
+            category: "Adventure",
+            name : "reacher"
         },
         {
             img: '../img/rol.jpeg',
             category: "Adventure",
-            tokken: "upcoming"
+            tokken: "upcoming",
+            name : "role"
         },
         {
             img: '../img/mafia.jpeg',
-            category: "Adventure"
+            category: "Adventure",
+            name : "mafia"
         },
         {
             img: '../img/v.jpeg',
-            category: "Adventure"
+            category: "Adventure",
+            name : "v"
         },
         {
             img: '../img/scoob.jpeg',
             category: "Animation",
-            tokken: "tredding"
+            tokken: "tredding",
+            name : "scoob"
         },
         {
             img: '../img/dd.jpeg',
-            category: "Animation"
+            category: "Animation",
+            name : "dark"
         },
         {
             img: '../img/ded.jpeg',
-            category: "Comedy"
+            category: "Comedy",
+            name : "deadpool"
         },
         {
             img: '../img/khiladi.jpeg',
-            category: "Comedy"
+            category: "Comedy",
+            name : "khiladi786"
         },
         {
             img: '../img/tom.jpeg',
             category: "Comedy",
-            tokken: "tredding"
+            tokken: "tredding",
+            name : "aomobon"
         },
         {
             img: '../img/diry.jpeg',
-            category: "Comedy"
+            category: "Comedy",
+            name : "diary"
         },
         {
             img: '../img/nana.jpeg',
-            category: "Comedy"
+            category: "Comedy",
+            name : "nanna"
         },
         {
             img: '../img/crm1.jpeg',
             category: "Crime",
-            tokken: "upcoming"
+            tokken: "upcoming",
+            name : "label"
         },
         {
             img: '../img/echo.jpeg',
-            category: "Crime"
+            category: "Crime",
+            name : "echo",
         },
         {
             img: '../img/soup.jpeg',
             category: "Crime",
-            tokken: "tredding"
+            tokken: "tredding",
+            name : "killer"
         },
         {
             img: '../img/talash.jpeg',
-            category: "Crime"
+            category: "Crime",
+            name : "talash"
         },
         {
             img: '../img/bed.jpeg',
-            category: "Crime"
+            category: "Crime",
+            name : "tamil"
         },
         {
             img: '../img/wed.jpeg',
             category: "Documentary",
-            tokken: "letest"
+            tokken: "letest",
+            name : "wedding"
         },
         {
             img: '../img/cu.jpeg',
             category: "Documentary",
-            tokken: "upcoming"
+            tokken: "upcoming",
+            name : "curry"
         },
         {
             img: '../img/cli.jpeg',
-            category: "Documentary"
-        },
-        {
-            img: '../img/cli.jpeg',
-            category: "Documentary"
+            category: "Documentary",
+            name : "climbers"
         },
         {
             img: '../img/hat.jpeg',
             category: "Drama",
-            tokken: "letest"
+            tokken: "letest",
+            name : "hate story"
         },
         {
             img: '../img/hat2.jpeg',
-            category: "Drama"
+            category: "Drama",
+            name : "hate story"
         },
         {
             img: '../img/hat3.jpeg',
             category: "Drama",
-            tokken: "upcoming"
+            tokken: "upcoming",
+            name : "hate story3"
         },
         {
             img: '../img/hat4.jpeg',
-            category: "Drama"
+            category: "Drama",
+            name : "hate story4"
         },
         {
             img: '../img/bur.jpeg',
-            category: "Drama"
+            category: "Drama",
+            name : "burning"
         },
         {
             img: '../img/12.jpeg',
             category: "Family",
-            tokken: "letest"
+            tokken: "letest",
+            name : "12 fail"
         },
         {
             img: '../img/ff.jpeg',
-            category: "Family"
+            category: "Family",
+            name : "express"
         },
         {
             img: '../img/fff.jpeg',
-            category: "Family"
+            category: "Family",
+            name : "undekhi"
         },
         {
             img: '../img/ney.jpeg',
-            category: "Family"
+            category: "Family",
+            name : "neymar"
         },
         {
             img: '../img/lgm.jpeg',
-            category: "Family"
+            category: "Family",
+            name : "lgm"
         },
         {
             img: '../img/upl.jpeg',
             category: "Fantasty",
-            tokken: "letest"
+            tokken: "letest",
+            name : "upload"
         },
         {
             img: '../img/bahu2.jpeg',
-            category: "Fantasty"
+            category: "Fantasty",
+            name : "bahubali2"
         },
         {
             img: '../img/barb.jpeg',
-            category: "Fantasty"
+            category: "Fantasty",
+            name : "barbie"
         },
         {
             img: '../img/12s.jpeg',
             category: "History",
             tokken: "letest",
-            tokken: "favorites"
+            tokken: "favorites",
+            name : "12 strong"
         },
         {
             img: '../img/bil.jpeg',
-            category: "History"
+            category: "History",
+            name : "bilal"
         },
         {
             img: '../img/me.jpeg',
-            category: "History"
+            category: "History",
+            name : "md"
         },
         {
             img: '../img/hop.jpeg',
-            category: "History"
+            category: "History",
+            name : "napoleon"
         },
         {
             img: '../img/tal.jpeg',
-            category: "History"
+            category: "History",
+            name : "tamil"
         },
         {
             img: '../img/savana.jpeg',
             category: "Horror",
-            tokken: "favorites"
+            tokken: "favorites",
+            name : "savannah"
         },
         {
             img: '../img/slp.jpeg',
-            category: "Horror"
+            category: "Horror",
+            name : "slapface"
         },
         {
             img: '../img/smt.jpeg',
-            category: "Horror"
+            category: "Horror",
+            name : "samaritans"
         },
         {
             img: '../img/co.jpeg',
-            category: "Horror"
+            category: "Horror",
+            name : "coven"
         },
         {
             img: '../img/win.jpeg',
-            category: "Horror"
+            category: "Horror",
+            name : "wintertide"
         },
         {
             img: '../img/mus.jpeg',
-            category: "Music"
+            category: "Music",
+            name : "music"
         },
         {
             img: '../img/dee.jpeg',
-            category: "Mystery"
+            category: "Mystery",
+            name : "deep"
         },
         {
             img: '../img/toby.jpeg',
-            category: "Mystery"
+            category: "Mystery",
+            name : "toby"
         },
         {
             img: '../img/dono.jpeg',
-            category: "Romance"
+            category: "Romance",
+            name : "dono"
         },
         {
             img: '../img/im.jpeg',
             category: "Romance",
-            tokken: "favorites"
+            tokken: "favorites",
+            name : "immature"
         },
         {
             img: '../img/hell.jpeg',
-            category: "Romance"
+            category: "Romance",
+            name : "takdir hello"
         },
         {
             img: '../img/sf.jpeg',
-            category: "Science Fiction"
+            category: "Science Fiction",
+            name : "gyeongseong"
         },
         {
             img: '../img/sh.jpeg',
-            category: "Science Fiction"
+            category: "Science Fiction",
+            name : "sweet home"
         },
         {
             img: '../img/moon.jpeg',
             category: "Science Fiction",
-            tokken: "favorites"
+            tokken: "favorites",
+            name : "the moon"
         },
         {
             img: '../img/kill.jpeg',
-            category: "Science Fiction"
+            category: "Science Fiction",
+            name : "kill mode"
         },
         {
             img: '../img/tm.jpeg',
-            category: "Science Fiction"
+            category: "Science Fiction",
+            name : "tomiris"
         },
         {
             img: '../img/lok.jpeg',
-            category: "TV Movie"
+            category: "TV Movie",
+            name : "lok"
         },
         {
             img: '../img/got.jpeg',
-            category: "TV Movie"
+            category: "TV Movie",
+            name : "got"
         },
         {
             img: '../img/ob.jpeg',
-            category: "TV Movie"
+            category: "TV Movie",
+            name : "obliterated"
         },
         {
             img: '../img/dark.jpeg',
-            category: "Thriller"
+            category: "Thriller",
+            name : "dark"
         },
         {
             img: '../img/5.jpeg',
-            category: "Thriller"
+            category: "Thriller",
+            name : "mafia"
         },
         {
             img: '../img/faa.jpeg',
-            category: "War"
+            category: "War",
+            name : "fauda"
         },
         {
             img: '../img/thh.jpeg',
             category: "War",
-            tokken: "favorites"
+            tokken: "favorites",
+            name : "the covenant"
         },
         {
             img: '../img/pippa.jpeg',
-            category: "War"
+            category: "War",
+            name : "pippa"
         },
         {
             img: '../img/7.jpeg',
             category: "Western",
-            tokken: "favorites"
+            tokken: "favorites",
+            name : "saven kings"
         },
         {
             img: '../img/vvv.jpeg',
-            category: "Western"
-        },
-        {
-            img: '../img/vvv.jpeg',
-            category: "Western"
+            category: "Western",
+            name : "vi kings vikings"
         },
 
 
     ]
 
     const [movieList, setMovieList] = useState(allMovieData);
+    const [searchName, setSearchName] = useState('')
 
     const btnClick = (item) => {
         if (item == "All Movie") {
@@ -434,6 +498,30 @@ const BlueBirdMovies = () => {
 
         setMovieList(favorites)
     }
+
+    const logInBtn=()=>{
+        alert("Have to take premium my dear")
+    }
+
+    const downloadBtn=()=>{
+        alert("Please login")
+    }
+
+    // searchName start 
+
+    useEffect(()=>{
+        if(searchName != '' ) {
+            const searchData = allMovieData.filter((val)=>{
+                return val.name.toLowerCase().includes(searchName.toLowerCase())
+            })
+            setMovieList(searchData)
+        }
+        else {
+            setMovieList(allMovieData)
+        }
+    },[searchName])
+
+    // searchName end
    
 
     return (
@@ -450,7 +538,7 @@ const BlueBirdMovies = () => {
                     </div>
                     <div className="status">
                         <ul>
-                            <li><a href="#" onClick={() => statusAllMovie()}>All Movie's</a></li>
+                            <li><a href="#" className='allmovie' onClick={() => statusAllMovie()}>All Movie's</a></li>
                             <li><a href="#" onClick={() => statusTredding()}>Trending</a></li>
                             <li><a href="#" onClick={() => statusLetest()}>Letest</a></li>
                             <li><a href="#" onClick={() => statusUpcoming()}>Upcoming</a></li>
@@ -459,14 +547,14 @@ const BlueBirdMovies = () => {
                     </div>
                     <div className="login">
                         <div className="loginbtn">
-                            <a href="">Log In</a>
+                            <a href="" onClick={()=>logInBtn()}>Log In</a>
                         </div>
                     </div>
                 </div>
                 <div className="body">
                     <div className="nav">
                         <div className="input">
-                            <input type="text" placeholder='Search Movie' />
+                            <input type="text" placeholder='Search Movie' onChange={(e)=>setSearchName(e.target.value)} value={searchName}/>
                         </div>
                     </div>
                     <div className="main">
@@ -494,7 +582,7 @@ const BlueBirdMovies = () => {
                                                                 <img src={val.img} alt="" />
                                                             </div>
                                                             <div className="btn">
-                                                                <a href="#">Download</a>
+                                                                <a href="#" onClick={()=>downloadBtn()}>Download</a>
                                                             </div>
                                                         </div>
                                                     </div>

@@ -62,7 +62,10 @@ ul {
   padding: 18px 0px;
   display: block;
   border-radius: 8px;
-  border: 2px solid #15171a;
+  border: 3px solid #15171a;
+}
+.main-section .header .status ul li a:focus {
+  border: 3px solid #4463a9;
 }
 .main-section .header .login {
   position: absolute;
@@ -80,7 +83,10 @@ ul {
   padding: 18px 0px;
   display: block;
   border-radius: 8px;
-  border: 2px solid #1d2736;
+  border: 3px solid #1d2736;
+}
+.main-section .header .login .loginbtn a:focus {
+  border: 3px solid #8a39a5;
 }
 .main-section .body {
   width: 80%;
@@ -102,6 +108,10 @@ ul {
   border-radius: 12px;
   font-size: 18px;
   outline: none;
+  border: 4px solid #8a39a5;
+}
+.main-section .body .nav .input input:focus {
+  border: 4px solid #1455be;
 }
 .main-section .body .main .container .row .category {
   padding: 40px 0px;
@@ -115,6 +125,10 @@ ul {
   display: inline-block;
   border-radius: 30px;
   margin: 8px 8px;
+}
+.main-section .body .main .container .row .category .allBtn a:focus {
+  background-color: #4463a9;
+  color: #15171a;
 }
 .main-section .body .main .container .row .all-cards .main {
   justify-content: start;
@@ -152,6 +166,10 @@ ul {
   color: white;
   border-radius: 12px;
   padding: 10px 0px;
+  transition: all 0.5s;
+}
+.main-section .body .main .container .row .all-cards .main .card .content .btn a:hover {
+  background-color: #1d47a1;
 }
 .main-section .body .main .container .row .all-cards .main .card .content:hover .btn {
   bottom: 26px;
